@@ -13,7 +13,7 @@ function App() {
 
   return (
 
-    <BrowserRouter>
+    <BrowserRouter basename='/cv-dynamic'>
       <Routes>
         {/* <Route path={["/sv"]} element={<Layout-sv />}> */}
         {/* </Route> */}
