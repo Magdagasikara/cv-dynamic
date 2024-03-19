@@ -1,0 +1,104 @@
+{
+    "firstName": "Magdalena",
+    "lastName": "Kubien",
+    "email": "magdalena.kubien(@)gmail.com",
+    "intro": "Analyst with long experience changing the path",
+    "experience": [
+        {
+            "dateStart": "Sep 2018",
+            "dateEnd": "present",
+            "company": "Swedish Social Insurance Agency (Försäkringskassan)",
+            "department": "Dep. for analyses",
+            "position": "Analyst",
+            "description": "",
+            "tasks": [
+                "lalalla",
+                "lalalallal"
+            ]
+        },
+        {
+            "dateStart": "Oct 2014",
+            "dateEnd": "Aug 2018",
+            "company": "Naturvetarna",
+            "department": "Department for communications and impact",
+            "position": "Statistician",
+            "description": "Development of a new role in a growing organisation.",
+            "tasks": [
+                "lalalla",
+                "lalalallal"
+            ]
+        },
+        {
+            "dateStart": "Jan 2014",
+            "dateEnd": "Jun 2014",
+            "company": "Ankizy Gasy & Arnaud Guesry Foundation",
+            "department": "Madagascar",
+            "position": "Volunteer ",
+            "description": "Running English classes and sports in local schools and orphanages and English classes for women in prison.",
+            "tasks": [
+                "lalalla",
+                "lalalallal"
+            ]
+        },
+        {
+            "dateStart": "Jun 2010",
+            "dateEnd": "Jan 2014",
+            "company": "Swedish Social Insurance Agency (Försäkringskassan)",
+            "department": "Dep. for analyses and forecasts",
+            "position": "Analyst/ statistician",
+            "description": "",
+            "tasks": [
+                "lalalla",
+                "lalalallal"
+            ]
+        },
+        {
+            "dateStart": "Apr 2006",
+            "dateEnd": "May 2010",
+            "company": "TNS Poland",
+            "department": "Dep. for statistical sampling and analyses",
+            "position": "Analyst",
+            "description": "My main tasks included preparing survey samples and analysing the data after surveys were conducted.",
+            "tasks": [
+                "lalalla",
+                "lalalallal"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "dateStart": "2023",
+            "dateEnd": "2025",
+            "school": "Chas Academy",
+            "place": "Stockholm",
+            "program": "Full stack development .NET",
+            "description": "xxx"
+        },
+        {
+            "dateStart": "2002",
+            "dateEnd": "2008",
+            "school": "Warsaw School of Economics",
+            "place": "Poland",
+            "program": "Quantitative Methods in Economics and Information Systems",
+            "description": "Specialization: Econometrics"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Polish",
+            "level": "Mother tongue"
+        },
+        {
+            "language": "Swedish",
+            "level": "Fluent"
+        },
+        {
+            "language": "English",
+            "level": "Fluent"
+        },
+        {
+            "language": "French",
+            "level": "Able to communicate"
+        }
+    ]
+}

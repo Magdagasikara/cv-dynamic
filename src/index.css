@@ -1,0 +1,443 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+
+
+/**********  MOBILE FIRST - trying to, at least **********/
+
+
+/********** HEADER styling **********/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 5%;
+    height: 20vh;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.magda_en {
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.magda_en a {
+    text-decoration: none;
+    color: black;
+}
+
+.magda_en span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style-type: none;
+    overflow: hidden;
+    transition: all .5s;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    line-height: 1.8;
+    /* margin-top: 1.5rem; */
+    padding-right: 2rem;
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: 500;
+    /* padding: 0.5em 0.5em; */
+    padding: 0 0.5em;
+
+    transition: font-weight 0.3s;
+}
+
+.menu-item a:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+.contact a {
+    /* padding: 1em 0; */
+    padding: 0;
+}
+
+.contact {
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+
+.contact p {
+    display: inline;
+}
+
+.menu-item .active {
+    text-decoration: underline;
+}
+
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-icon {
+    display: block;
+    position: relative;
+    font-size: 1.5rem;
+    z-index: 2;
+}
+
+#nav-toggle:checked~.menu {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding-top: 6em;
+    bottom: 0;
+    overflow: visible;
+}
+
+
+/********** MAIN styling **********/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em 5%;
+    min-height: 70vh;
+}
+
+.pic-intro {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* margin-bottom: 20px; */
+}
+
+.pic-intro img {
+    width: 100%;
+    height: auto;
+}
+
+.site-welcome {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.site-welcome p {
+    font-size: 1rem;
+}
+
+
+
+
+.card-img {
+    width: 100%;
+    opacity: 90%;
+}
+
+.card-container {
+    width: 100%;
+    /* max-width: 1200px; */
+    height: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    height: 100%;
+    max-height: 40vh;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /* max-width: 300px;
+    max-height: 200px; */
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-self: center; */
+    box-sizing: border-box;
+    overflow: hidden;
+    border-bottom: 1px solid #f5f9f9;
+    text-align: center;
+}
+
+/* .card:last-child {
+    border-bottom: none;
+} */
+
+.card a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 300;
+    /* width: 100%; */
+    height: 100%;
+    width: auto;
+    /* object-fit: cover; */
+    padding: 5%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h3 {
+    font-weight: 500;
+    height: 10%;
+    left: 0;
+    width: auto;
+    text-align: center;
+}
+
+.card figure {
+    height: 90%;
+    width: auto;
+}
+
+.card figure img {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    align-self: center;
+    width: 60%;
+    max-width: 300px;
+    /* height: 75%;
+    max-height: 200px; */
+    height: auto;
+    margin: 5% 20%;
+}
+
+.card figure figcaption {
+    bottom: 5%;
+    top: 5%;
+    left: 0;
+    font-size: 1rem;
+}
+
+.card .popup-button {
+    width: fit-content;
+    align-items: center;
+    border-radius: 5%;
+    background-color: #f5f9f9;
+    margin-top: 5%;
+}
+
+.card .popup-button i {
+    opacity: 75%;
+}
+
+.card:hover {
+    background-color: #f5f9f9;
+    /* font-weight: 900; */
+
+}
+
+.card-portfolio-popup {
+    background-color: rgb(223, 226, 228);
+    padding: 2%;
+    /* width: 75%; */
+    border: 1px solid #888;
+    display: none;
+    position: absolute;
+    /* top: 50%; */
+    z-index: 1;
+}
+
+.card-portfolio-popup a {
+    text-decoration: none;
+    /* padding: 5% 0; */
+}
+
+:target {
+    display: block;
+}
+
+.GitHub-btn-link {
+    font-size: 1rem;
+}
+
+.close {
+    color: rgba(0, 0, 0, 0.2);
+    float: right;
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    /* text-decoration: none; */
+    cursor: pointer;
+}
+
+/* .menu-item {
+    transition: transform 0.3s,
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+} */
+.section-cv {
+    width: 80%;
+    height: 100vw;
+}
+
+.cv-view {
+    width: 100%;
+    height: 100vw;
+    max-height: 100%;
+    border: none;
+}
+
+.period {
+    font-weight: 600;
+}
+
+.importantText {
+    font-weight: 700;
+}
+
+.accordion-item :hover {
+    background-color: #f5f9f9;
+    /* font-weight: 900; */
+
+}
+
+/********** FOOTER styling **********/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 5%;
+    height: 10vh;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    transition: font-weight 0.3s transform 0.3s;
+}
+
+footer p a {
+    transition: transform 0.3s;
+}
+
+footer a:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+.accordion-button {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about section {
+    width: 100%;
+    margin: 2% 0;
+}
+
+
+
+/********** MEDIA QUERIES **********/
+
+@media print {
+    .printRemove {
+        display: none !important;
+
+    }
+}
+
+@media (min-aspect-ratio:1) {
+    .card {
+        max-height: 50vw;
+    }
+
+}
+
+@media (min-width:850px) {
+
+    .card-container {
+        justify-content: space-around;
+    }
+
+    .card a {
+        font-size: 1.1rem;
+    }
+
+    .card-portfolio-popup {
+        width: 50%;
+    }
+
+    .section-cv {
+        height: 600px;
+    }
+}
+
+@media (min-width:1000px) {
+
+    .magda_en {
+        padding: 1rem 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .magda_en span {
+        font-size: 1.1rem;
+    }
+
+    #nav-icon {
+        display: none;
+    }
+
+    #nav-toggle:checked~.menu {
+        padding-top: 0;
+    }
+
+    .menu {
+        flex-direction: row;
+        overflow: visible;
+        position: relative;
+        background-color: white;
+        padding-right: 0;
+        margin-top: 0;
+    }
+
+    .menu-item a {
+        font-size: 1.1rem;
+        /* font-weight: 400; */
+    }
+
+    .portfolio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
