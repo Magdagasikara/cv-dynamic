@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="printRemove">
+        <footer className="print-remove">
             <p>© Magda Kubień 2024</p>
             <p>
                 <a href="./contact.html">CONTACT</a>

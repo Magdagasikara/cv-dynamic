@@ -70,16 +70,8 @@ export default function Portfolio() {
     }
 
     return (
-        <main>
+        <>
 
-            <section className="pic-intro">
-                <figure>
-                    <img
-                        src="src/assets/img/concert.jpg"
-                        alt="Picture taken during Behemoth's concert in Stockholm 2023"
-                    />
-                </figure>
-            </section>
             <section className="site-welcome">
                 <h2>MY PORTFOLIO</h2>
                 <p>Take a look at my projects!</p>
@@ -87,7 +79,7 @@ export default function Portfolio() {
 
             {renderLoadingOrPortfolio()}
 
-        </main>
+        </>
     )
 
 }

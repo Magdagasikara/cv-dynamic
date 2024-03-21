@@ -1,14 +1,6 @@
 export default function Contact() {
     return (
-        <main>
-            <section className="pic-intro">
-                <figure>
-                    <img
-                        src="src/assets/img/coffee-table-broad.jpg"
-                        alt="Magdas minibike at a fantastic lunch place in south of France"
-                    />
-                </figure>
-            </section>
+        <>
             <section className="site-welcome">
                 <h2>CONTACT ME</h2>
                 <p>Shall we meet over a cup of coffee?</p>
@@ -33,7 +25,6 @@ export default function Contact() {
                     </a>
                 </article>
             </section>
-        </main>
-
+        </>
     )
 }

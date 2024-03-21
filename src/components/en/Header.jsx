@@ -2,7 +2,7 @@ import { NavLink, Link } from "react-router-dom"
 
 export default function Header() {
     return (
-        <header className="printRemove">
+        <header className="print-remove">
             <h1 className="magda_en">
                 <Link to="./">
                     MAGDA KUBIEŃ
