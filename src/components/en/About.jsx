@@ -1,6 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion';
 import CV from "../../data/cv-en.json"
-import HeroPrint from '../HeroPrint';
+
 
 export default function About() {
     return (
@@ -9,7 +9,6 @@ export default function About() {
                 <h2>Hi! I am Magda and I need your help.</h2>
                 <p>{CV.intro}</p>
             </section >
-            <HeroPrint />
             <section className="education about">
                 <h4>Education - from analyst/statistician to .NET developer with backend focus.</h4>
                 <Accordion defaultActiveKey="present" >
