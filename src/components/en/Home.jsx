@@ -4,15 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
-        <main>
-            <section className="pic-intro">
-                <figure>
-                    <img
-                        src={import.meta.env.BASE_URL + "src/assets/img/sitting-broad.png"}
-                        alt="Magda with Annapurna I in the background"
-                    />
-                </figure>
-            </section>
+        <>
             <section className="site-welcome">
                 <h2>WELCOME TO MY UGLY WORLD!</h2>
             </section>
@@ -71,6 +63,6 @@ export default function Home() {
                     </Link>
                 </Card>
             </section>
-        </main>
+        </>
     )
 }

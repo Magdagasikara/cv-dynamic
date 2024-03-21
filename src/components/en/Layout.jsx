@@ -1,13 +1,17 @@
 import Footer from "./Footer";
 import Header from "./Header";
+import Hero from "../Hero";
+// import HeroPrint from "../assets/img/sitting-broad-black-white.png"
 import { Outlet } from "react-router-dom";
 
 export default function Layout() {
     return (
         <>
             <Header />
-            {/* <header><h1>Min header</h1></header> */}
-            <Outlet />
+            <main>
+                <Hero />
+                <Outlet />
+            </main>
             <Footer />
         </>
     )

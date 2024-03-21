@@ -3,21 +3,12 @@ import CV from "../../data/cv-en.json"
 
 export default function About() {
     return (
-        <main className="about">
-            <section className="pic-intro">
-                <figure>
-                    <img
-                        src="src/assets/img/road-long-broad.jpg"
-                        alt="Neverending road in Isalo, Madagascar"
-                    // sitting-broad-black-white.jpg 
-                    />
-                </figure>
-            </section>
-            <section className="site-welcome">
+        <div className="about">
+            < section className="site-welcome about"  >
                 <h2>Hi! I am Magda and I need your help.</h2>
                 <p>{CV.intro}</p>
-            </section>
-            <section className="education">
+            </section >
+            <section className="education about">
                 <h4>Education - from analyst/statistician to .NET developer with backend focus.</h4>
                 <Accordion defaultActiveKey="present" >
                     {
@@ -38,7 +29,7 @@ export default function About() {
                 </Accordion>
             </section>
 
-            <section className="experience">
+            <section className="experience about">
                 <h4>Work experience - many years as a programming analyst.</h4>
                 <Accordion defaultActiveKey="Present" >
                     {/* flush */}
@@ -66,7 +57,7 @@ export default function About() {
                 </Accordion>
             </section>
 
-        </main >
+        </ div>
 
     )
 }
