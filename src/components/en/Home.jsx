@@ -9,56 +9,42 @@ export default function Home() {
                 <h2>WELCOME TO MY UGLY WORLD!</h2>
             </section>
             <section className="card-container">
-                {/* className="card" */}
                 <Card style={{ width: '18rem' }}>
                     <Link to="./portfolio">
-                        {/* <Card.Header as="h3">PORTFOLIO</Card.Header> */}
                         <Card.Img className="card-img" variant="top" src={import.meta.env.BASE_URL + "src/assets/img/computer.jpg"} alt="Magdas laptop at her plantation spot" />
-                        <Card.ImgOverlay>
-                            {/* variant="top" */}
-                            <Card.Body>
-                                <Card.Title>PORTFOLIO</Card.Title>
-                                <Card.Text>
-                                    FOLLOW MY PROGRAMMING JOURNEY
-                                </Card.Text>
-                            </Card.Body>
-                        </Card.ImgOverlay>
+                        <Card.Body>
+                            <Card.Title>Follow my programming journey</Card.Title>
+                            <Button variant="primary">See my portfolio</Button>
+                        </Card.Body>
                     </Link>
                 </Card>
                 <Card style={{ width: '18rem' }}>
                     <Link to="./about">
-                        {/* <Card.Header as="h3">ABOUT ME</Card.Header> */}
                         <Card.Img className="card-img" variant="top" src={import.meta.env.BASE_URL + "src/assets/img/road-long.jpg"} alt="Neverending road in Isalo, Madagascar" />
                         <Card.Body>
-                            <Card.Title>ABOUT ME</Card.Title>
-                            <Card.Text>
-                                MY WORK EXPERIENCE AND EDUCATION
-                            </Card.Text>
+                            <Card.Title>My work experience and education</Card.Title>
+                            <Button variant="primary">Read about me</Button>
                         </Card.Body>
                     </Link>
                 </Card>
                 <Card style={{ width: '18rem' }}>
                     <Link to="./beachvolley">
-                        {/* <Card.Header as="h3">BEACH VOLLEYBALL</Card.Header> */}
                         <Card.Img className="card-img" variant="top" src={import.meta.env.BASE_URL + "src/assets/img/beach.jpg"} alt="Magda preparing to serve in a beachvolley match" />
                         <Card.Body>
-                            <Card.Title>BEACH VOLLEYBALL</Card.Title>
-                            <Card.Text>
-                                THAT'S WHAT I DO TO RELAX
-                            </Card.Text>
+                            <Card.Title> That's what I do to relax</Card.Title>
+                            <Button variant="primary">Read about my love for beach volley</Button>
                         </Card.Body>
                     </Link>
                 </Card>
 
                 <Card style={{ width: '18rem' }}>
                     <Link to="./contact">
-                        {/* <Card.Header as="h3">CONTACT ME</Card.Header> */}
                         <Card.Img className="card-img" variant="top" src={import.meta.env.BASE_URL + "src/assets/img/coffee.jpg"} alt="Magdas favourite cup of coffee" />
                         <Card.Body>
-                            <Card.Title>CONTACT ME</Card.Title>
-                            <Card.Text>
-                                SHALL WE GET A CUP OF COFFEE?
-                            </Card.Text>
+                            <Card.Title>
+                                Shall we get a cup of coffee?
+                            </Card.Title>
+                            <Button variant="primary">Contact me</Button>
                         </Card.Body>
                     </Link>
                 </Card>

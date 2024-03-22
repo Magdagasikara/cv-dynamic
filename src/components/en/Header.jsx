@@ -39,10 +39,15 @@ export default function Header() {
                         <Link
                             to="https://www.linkedin.com/in/magdalena-kubien-79964297/"
                             target="_blank"
+                            aria-label="Linkedin"
                         >
                             <i className="fa-brands fa-linkedin" />
                         </Link>
-                        <Link to="https://github.com/Magdagasikara" target="_blank">
+                        <Link
+                            to="https://github.com/Magdagasikara"
+                            target="_blank"
+                            aria-label="GitHub"
+                        >
                             <i className="fa-brands fa-github" />
                         </Link>
                     </li>
@@ -52,8 +57,8 @@ export default function Header() {
                       <li class="menu-item language-container sv"><a href="./sv/index.html">SV<i
                           class="fa-solid fa-caret-down"></i></a>
                       </li> */}
-                    <li className="menu-item language-container sv">
-                        <NavLink to="./sv/">
+                    <li className="menu-item language-container sv" >
+                        <NavLink to="./sv/" aria-label="Choose language">
                             <i className="fa-solid fa-globe" />
                             SV
                         </NavLink>

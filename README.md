@@ -13,3 +13,6 @@ Currently, two official plugins are available:
 ! när jag hade Header och Footer inom <></> så renderas ingenting:(
     ? favicon?
     är det fel att ha länkar i NAV efter contact tex?
+
+international phone number input
+    npm install react-phone-number-input --save

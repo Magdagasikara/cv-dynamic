@@ -49,17 +49,19 @@ export default function Portfolio() {
                         pinnedRepos.map(repo => {
                             return (
                                 <Card style={{ width: '18rem' }} key={repo.name}>
-                                    <Card.Img variant="top" src="holder.js/100px180" />
-                                    <Card.Body>
-                                        <Card.Title>
-                                            <h5>{repo.name}</h5>
-                                        </Card.Title>
-                                        <Card.Text>
-                                            <p>{repo.description}</p>
-                                            <p>Used languages: {repo.languages.map(lang => { return lang; })}</p>
-                                        </Card.Text>
-                                        <Button variant="warning"><Card.Link href={repo.url}>Go to GitHub</Card.Link></Button>
-                                    </Card.Body>
+                                    <Card.Link href={repo.url}>
+                                        <Card.Img variant="top" src="holder.js/100px180" />
+                                        <Card.Body>
+                                            <Card.Title>
+                                                <h5>{repo.name}</h5>
+                                            </Card.Title>
+                                            <Card.Text>
+                                                <p>{repo.description}</p>
+                                                <p>Used languages: {repo.languages.map(lang => { return lang; })}</p>
+                                            </Card.Text>
+                                            <Button variant="primary">Go to GitHub</Button>
+                                        </Card.Body>
+                                    </Card.Link>
                                 </Card>
                             )
                         })
