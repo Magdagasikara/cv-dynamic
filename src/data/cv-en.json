@@ -10,10 +10,12 @@
             "company": "Swedish Social Insurance Agency (Försäkringskassan)",
             "department": "Dep. for analyses",
             "position": "Analyst",
-            "description": "",
+            "description": "Work combining knowledge on the Swedish social insurance with what is relevant to present externally, and close colaboration with IT when developing databases.",
             "tasks": [
-                "lalalla",
-                "lalalallal"
+                "Converting knowledge on the Swedish social insurance and register-based data into relevant statistics",
+                "One of two responsible persons on creating programming standard for statistics presentation at www.fk.se/statistik, including in-built testing",
+                "Reponsible for automating repetetive or complex tasks in VBA Excel",
+                "Close cooperation with IT department to update databases according to needs or coming law changes that can better address the analytical questions"
             ]
         },
         {
@@ -24,8 +26,10 @@
             "position": "Statistician",
             "description": "Development of a new role in a growing organisation.",
             "tasks": [
-                "lalalla",
-                "lalalallal"
+                "Constant development of the annual salary survey, making the questionnaire relevant to new member groups and trying to assure the results are being used in the organisation",
+                "Responsibility for development of our statistics tools, used internally by ombudsmen and externally by our members; organizing trainings for my colleagues and offering support externally during calmer periods. Data is being processed in SAS and Excel incl. VBA",
+                "Key role in some of the recruitment projects; processing monthly data from our CRM to better understand what happens to our members during their membership",
+                "Support in most statistics- and data-related projects in the organization: related to either salary statistics, information on our members in the CRM, surveys or common projects with other Saco-unions"
             ]
         },
         {
@@ -36,8 +40,8 @@
             "position": "Volunteer ",
             "description": "Running English classes and sports in local schools and orphanages and English classes for women in prison.",
             "tasks": [
-                "lalalla",
-                "lalalallal"
+                "In Ambohidratrimo we taught English in schools (sometimes in very poor schools in the countryside), organized sports and arts&crafts in schools and an orphanage. We painted a school building, including colorful murals.",
+                "In Diego Suarez I lived in an orphanage with 16 kids and organized activities for both the young and the older ones. I run English classes for 8 women in the local prison."
             ]
         },
         {
@@ -46,10 +50,14 @@
             "company": "Swedish Social Insurance Agency (Försäkringskassan)",
             "department": "Dep. for analyses and forecasts",
             "position": "Analyst/ statistician",
-            "description": "",
+            "description": "At the Section for Statistical Analysis we were responsible for external presentation of the outcome of Swedish social insurance and sustaining analytical databases.",
             "tasks": [
-                "lalalla",
-                "lalalallal"
+                "Preparation of data and statistics for internal and external clients (researchers, agencies, journalists)",
+                "Development and presentation of new statistics on the Agency's webpage",
+                "Close cooperation with the IT department to update databases according to needs or coming law changes; development of analytical databases that can better address the analytical questions",
+                "Help with conducting questionnaires: sampling, analyses, contacts with different parts of the organization",
+                "Taking part in segmentation performed on the Swedish population 16-64: creating a database (a few hundred variables based on registry and survey data), analysing the segments and presenting results, using the comprehensive database for answering ad hoc analytical queries (e.g. as part of governmental discussion about closing the service offices)",
+                "Main tools: SAS EG, SQL, SPSS, Excel (incl. VBA)"
             ]
         },
         {
@@ -60,8 +68,11 @@
             "position": "Analyst",
             "description": "My main tasks included preparing survey samples and analysing the data after surveys were conducted.",
             "tasks": [
-                "lalalla",
-                "lalalallal"
+                "Data processing and analysing for the needs of researchers who were responsible for presenting the results externally",
+                "Weight computation, data cleaning",
+                "Automation of repetitive tasks with SPSS syntax, VBA Excel",
+                "Sampling: processing customers databases, preparing samples for telephone, paper and computer aided interviews",
+                "Main tools: SAS EG, SQL, SPSS, Excel (incl. VBA)"
             ]
         }
     ],
@@ -72,7 +83,13 @@
             "school": "Chas Academy",
             "place": "Stockholm",
             "program": "Full stack development .NET",
-            "description": "xxx"
+            "description": [
+                "We learn to use C#, SQL, HTML, CSS, JavaScript, Git.",
+                "We work in Visual Studio, Visual Studio Code, Microsoft SQL Server, Azure.",
+                "We use Entity Framework, LINQ, React, Blazor & Razor, RESTful API.",
+                "We learn about WCAG, UML and Agile methodologies.",
+                "We have several group projects, with the biggest one being Chas Challenge where we cowork with other classes, including UX-designers, DevOps and frontend developers."
+            ]
         },
         {
             "dateStart": "2002",
@@ -80,7 +97,10 @@
             "school": "Warsaw School of Economics",
             "place": "Poland",
             "program": "Quantitative Methods in Economics and Information Systems",
-            "description": "Specialization: Econometrics"
+            "description": [
+                "Master's degree",
+                "Specialization: Econometrics"
+            ]
         }
     ],
     "languages": [

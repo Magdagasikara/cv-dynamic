@@ -6,6 +6,10 @@ import Spinner from 'react-bootstrap/Spinner'
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { PacmanLoader } from "react-spinners";
 
+// kolla på
+// https://unsplash.com/documentation#search-photos
+// https://unsplash.com/oauth/applications/582072
+
 export default function Portfolio() {
     const [pinnedRepos, setPinnedRepos] = useState([])
     const [repos, setRepos] = useState([])
@@ -48,21 +52,23 @@ export default function Portfolio() {
                     {
                         pinnedRepos.map(repo => {
                             return (
-                                <Card style={{ width: '18rem' }} key={repo.name}>
-                                    <Card.Link href={repo.url}>
-                                        <Card.Img variant="top" src="holder.js/100px180" />
-                                        <Card.Body>
-                                            <Card.Title>
-                                                <h5>{repo.name}</h5>
-                                            </Card.Title>
-                                            <Card.Text>
-                                                <p>{repo.description}</p>
-                                                <p>Used languages: {repo.languages.map(lang => { return lang; })}</p>
-                                            </Card.Text>
-                                            <Button variant="primary">Go to GitHub</Button>
-                                        </Card.Body>
-                                    </Card.Link>
-                                </Card>
+                                <article>
+                                    <Card style={{ width: '18rem' }} key={repo.name}>
+                                        <Card.Link href={repo.url}>
+                                            <Card.Img variant="top" src="holder.js/100px180" />
+                                            <Card.Body>
+                                                <Card.Title>
+                                                    <h5>{repo.name}</h5>
+                                                </Card.Title>
+                                                <Card.Text>
+                                                    <p>{repo.description}</p>
+                                                    <p>Used languages: {repo.languages.map(lang => { return lang; })}</p>
+                                                </Card.Text>
+                                                <Button variant="primary">See {repo.name} on GitHub</Button>
+                                            </Card.Body>
+                                        </Card.Link>
+                                    </Card>
+                                </article>
                             )
                         })
                     }

@@ -1,18 +1,26 @@
+import { useState } from "react";
 import { NavLink, Link } from "react-router-dom"
+// applicera toggleMenu med Js
 
 export default function Header() {
+    // const [isHamburgerMenuOpen, setHamburgerMenuOpen] = useState(false);
+
+    // const toggleMenu = () => {
+    //     setIsModalOpen(!isHamburgerMenuOpen);
+    // }
+
     return (
         <header className="print-remove">
             <h1 className="magda_en">
                 <Link to="./">
                     MAGDA KUBIEŃ
                     <br />
-                    <span>YOUR NEXT .NET DEVELOPER</span>
+                    <span>Your next .NET developer</span>
                 </Link>
             </h1>
             <nav>
                 <input type="checkbox" id="nav-toggle" />
-                <label htmlFor="nav-toggle" id="nav-icon">
+                <label htmlFor="nav-toggle" id="nav-icon" >
                     <i className="fa-solid fa-bars" />
                 </label>
                 <ul className="menu">

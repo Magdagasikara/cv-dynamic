@@ -11,8 +11,11 @@ Currently, two official plugins are available:
 ! struktur för sv/en under /src
 ? var skriver jag Js som ändrar sidans titel?
 ! när jag hade Header och Footer inom <></> så renderas ingenting:(
-    ? favicon?
+    
     är det fel att ha länkar i NAV efter contact tex?
 
 international phone number input
     npm install react-phone-number-input --save
+
+!!  articles runt alla cards!
+!! importera bilder till home
