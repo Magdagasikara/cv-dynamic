@@ -10,12 +10,12 @@
             "company": "Swedish Social Insurance Agency (Försäkringskassan)",
             "department": "Dep. for analyses",
             "position": "Analyst",
-            "description": "Work combining knowledge on the Swedish social insurance with what is relevant to present externally, and close colaboration with IT when developing databases.",
+            "description": "My current position combines knowledge on the Swedish social insurance and on what is relevant to present as statistics externally. We colaborate closely with IT when developing register databases and our new statistics database at www.fk.se/statistik.",
             "tasks": [
-                "Converting knowledge on the Swedish social insurance and register-based data into relevant statistics",
-                "One of two responsible persons on creating programming standard for statistics presentation at www.fk.se/statistik, including in-built testing",
+                "Converting knowledge on the Swedish social insurance and register-based data into relevant statistics.",
+                "Together with a colleague we were responsible for creating programming standard (SAS programs) for statistics at www.fk.se/statistik when migrating all statistics from Excel to a new format, including in-built testing.",
                 "Reponsible for automating repetetive or complex tasks in VBA Excel",
-                "Close cooperation with IT department to update databases according to needs or coming law changes that can better address the analytical questions"
+                "Close cooperation with IT department to update databases according to needs or coming law changes that can better address the analytical questions, defining requirements on facta tables and testing them."
             ]
         },
         {
@@ -27,7 +27,7 @@
             "description": "Development of a new role in a growing organisation.",
             "tasks": [
                 "Constant development of the annual salary survey, making the questionnaire relevant to new member groups and trying to assure the results are being used in the organisation",
-                "Responsibility for development of our statistics tools, used internally by ombudsmen and externally by our members; organizing trainings for my colleagues and offering support externally during calmer periods. Data is being processed in SAS and Excel incl. VBA",
+                "Responsibility for development of our statistics tools, used internally by ombudsmen and externally by our members; organizing trainings for my colleagues and offering support externally during calmer periods. Data was being processed in SAS and Excel incl. VBA",
                 "Key role in some of the recruitment projects; processing monthly data from our CRM to better understand what happens to our members during their membership",
                 "Support in most statistics- and data-related projects in the organization: related to either salary statistics, information on our members in the CRM, surveys or common projects with other Saco-unions"
             ]
@@ -84,9 +84,9 @@
             "place": "Stockholm",
             "program": "Full stack development .NET",
             "description": [
-                "We learn to use C#, SQL, HTML, CSS, JavaScript, Git.",
+                "We learn C#, SQL, HTML, CSS, JavaScript, Git.",
                 "We work in Visual Studio, Visual Studio Code, Microsoft SQL Server, Azure.",
-                "We use Entity Framework, LINQ, React, Blazor & Razor, RESTful API.",
+                "We use Entity Framework, LINQ, RESTful API, React, Blazor and Razor.",
                 "We learn about WCAG, UML and Agile methodologies.",
                 "We have several group projects, with the biggest one being Chas Challenge where we cowork with other classes, including UX-designers, DevOps and frontend developers."
             ]

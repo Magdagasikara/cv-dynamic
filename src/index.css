@@ -146,7 +146,6 @@ main h4 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* margin-bottom: 20px; */
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.2); */
 }
 
@@ -217,7 +216,6 @@ main h4 {
     /* width: 100%; */
     height: 100%;
     width: auto;
-    /* object-fit: cover; */
     padding: 5%;
     position: relative;
     display: flex;
@@ -232,7 +230,7 @@ main h4 {
     aspect-ratio: 4 / 3;
 }
 
-.card .popup-button {
+/* .card .popup-button {
     width: fit-content;
     align-items: center;
     border-radius: 5%;
@@ -242,7 +240,7 @@ main h4 {
 
 .card .popup-button i {
     opacity: 75%;
-}
+} */
 
 .card:hover {
     background-color: #f5f9f9;
@@ -250,20 +248,22 @@ main h4 {
     border-style: ridge;
 }
 
-.card-portfolio-popup {
-    background-color: rgb(223, 226, 228);
-    padding: 2%;
-    /* width: 75%; */
-    border: 1px solid #888;
-    display: none;
-    position: absolute;
-    /* top: 50%; */
-    z-index: 1;
+.portfolio {
+    color: white;
+    font-size: 0.95rem;
 }
 
-.card-portfolio-popup a {
-    text-decoration: none;
-    /* padding: 5% 0; */
+.portfolio p {
+    margin-bottom: 0;
+}
+
+.portfolio .language {
+    background-color: white;
+    color: black;
+    border-radius: 5%;
+    display: inline-block;
+    margin: 2%;
+    padding: 0 2%;
 }
 
 .btn-primary {
@@ -477,9 +477,9 @@ footer a:hover {
         font-size: 1.1rem;
     }
 
-    .card-portfolio-popup {
+    /* .card-portfolio-popup {
         width: 50%;
-    }
+    } */
 
     .section-cv {
         height: 600px;
@@ -527,11 +527,12 @@ footer a:hover {
         width: 70%;
     }
 
+    /* 
     .portfolio {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
+    } */
 
 
 }

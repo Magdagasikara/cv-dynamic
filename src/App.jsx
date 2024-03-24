@@ -2,11 +2,11 @@ import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 // import './App.css'
 import Layout from './components/en/Layout'
-import Home from './components/en/Home'
-import About from './components/en/About'
-import Contact from './components/en/Contact'
-import Portfolio from './components/en/Portfolio'
-import Beachvolley from './components/en/Beachvolley'
+import Home from './pages/en/Home'
+import About from './pages/en/About'
+import Contact from './pages/en/Contact'
+import Portfolio from './pages/en/Portfolio'
+import Beachvolley from './pages/en/Beachvolley'
 
 
 function App() {
