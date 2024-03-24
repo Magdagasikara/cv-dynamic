@@ -1,11 +1,16 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
-import PhoneInput from 'react-phone-number-input'
-import { useState } from 'react';
+// import PhoneInput from 'react-phone-number-input'
+import { useState, useEffect } from 'react';
+// import SendMessage from '../../components/SendMessage';
+
 
 export default function Contact() {
-    const [phoneNumber, setPhoneNumber] = useState()
+    // const [phoneNumber, setPhoneNumber] = useState();
+    // const handleSendMessage = () => {
+    //     return <SendMessage phoneNumber={phoneNumber} />;
+    // };
     return (
         <>
             <section className="site-welcome">
@@ -40,22 +45,19 @@ export default function Contact() {
                         </Link>
                     </Card>
                 </article>
-                <article>
+                {/* <article>
                     <form name="sendPhoneNumber">
                         <PhoneInput
-                            // placeholder="Enter phone number"
-
-                            // countrySelectProps={{ unicodeFlags: true }}
+                            countrySelectProps={{ unicodeFlags: true }}
                             international
                             countryCallingCodeEditable={false}
                             defaultCountry="SE"
                             value={phoneNumber}
                             onChange={setPhoneNumber} />
-                        {/* </Card.Body> */}
-                        <Button variant="primary">Text yourself at {phoneNumber}!</Button>
-                        {/* </Card> */}
+                        <Button variant="primary" onClick={handleSendMessage}>Text yourself at {phoneNumber}!</Button>
                     </form>
-                </article>
+                </article> */}
+
             </section>
         </>
     )

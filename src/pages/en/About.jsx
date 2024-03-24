@@ -6,8 +6,8 @@ export default function About() {
     return (
         <div className="about">
             < section className="site-welcome"  >
-                <h2>Hi! I am Magda and I need your help.</h2>
-                <p>{CV.intro}</p>
+                <h2>My name is Magda.</h2>
+                <p>Yesterday an analyst. Tomorrow a .NET developer (maybe).</p>
             </section >
             <section className="shortcuts">
 

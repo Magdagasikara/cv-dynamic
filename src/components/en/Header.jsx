@@ -59,14 +59,9 @@ export default function Header() {
                             <i className="fa-brands fa-github" />
                         </Link>
                     </li>
-                    {/* <li class="menu-item language-container en"><a href="./index.html">EN<i
-                          class="fa-solid fa-caret-down"></i></a>
-                      </li>
-                      <li class="menu-item language-container sv"><a href="./sv/index.html">SV<i
-                          class="fa-solid fa-caret-down"></i></a>
-                      </li> */}
+                    {/*  i framtiden nedan: to="./sv/" */}
                     <li className="menu-item language-container sv" >
-                        <NavLink to="./sv/" aria-label="Choose language">
+                        <NavLink to="./" aria-label="Choose language">
                             <i className="fa-solid fa-globe" />
                             SV
                         </NavLink>

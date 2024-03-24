@@ -125,11 +125,7 @@ header {
 
 
 /********** MAIN styling **********/
-/* --PhoneInputCountryFlag-height {}
---PhoneInputCountryFlag-borderColor 
- --PhoneInputCountrySelectArrow-color
- . --PhoneInputCountrySelectArrow-opacity 
-  --PhoneInput-color--focus */
+
 main {
     display: flex;
     flex-direction: column;
@@ -146,7 +142,6 @@ main h4 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.2); */
 }
 
 .pic-intro img {
@@ -168,16 +163,10 @@ main h4 {
 }
 
 
-
-
-
-
 .card-container {
     width: 100%;
-    /* max-width: 1200px; */
     height: auto;
     display: flex;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
     margin-top: 10px;
     justify-content: center;
@@ -191,29 +180,19 @@ main h4 {
     max-height: 50vh;
     margin-bottom: 10px;
     margin-top: 10px;
-    /* max-width: 300px;
-    max-height: 200px; */
-    /* display: flex; */
     flex-direction: column;
     justify-content: space-between;
-    /* align-self: center; */
     box-sizing: border-box;
     overflow: hidden;
-    /* border-bottom: 1px solid #f5f9f9; */
     border: 0;
     text-align: center;
 }
-
-/* .card:last-child {
-    border-bottom: none;
-} */
 
 .card a {
     text-decoration: none;
     font-size: 1.1rem;
     color: rgba(0, 0, 0, 0.8);
     font-weight: 300;
-    /* width: 100%; */
     height: 100%;
     width: auto;
     padding: 5%;
@@ -230,21 +209,9 @@ main h4 {
     aspect-ratio: 4 / 3;
 }
 
-/* .card .popup-button {
-    width: fit-content;
-    align-items: center;
-    border-radius: 5%;
-    background-color: #f5f9f9;
-    margin-top: 5%;
-}
-
-.card .popup-button i {
-    opacity: 75%;
-} */
 
 .card:hover {
     background-color: #f5f9f9;
-    /* font-weight: 900; */
     border-style: ridge;
 }
 
@@ -290,18 +257,8 @@ main h4 {
 .close:hover,
 .close:focus {
     color: black;
-    /* text-decoration: none; */
     cursor: pointer;
 }
-
-/* .menu-item {
-    transition: transform 0.3s,
-}
-
-.menu-item:hover {
-    transform: scale(1.1);
-} */
-
 
 
 .period {
@@ -314,14 +271,8 @@ main h4 {
 
 .accordion-item :hover {
     background-color: #f5f9f9;
-    /* font-weight: 900; */
-
 }
 
-/* 
-.card-container .contact {
-    align-items: flex-start;
-} */
 
 .contact .card {
     width: 20rem;
@@ -331,10 +282,23 @@ main h4 {
     padding: 0;
 }
 
+.accordion-button {
+    flex-direction: column;
+    align-items: flex-start;
+}
 
+.about section {
+    width: 100%;
+    margin: 2% 0;
+}
+
+.lessImportantText {
+    font-weight: 300;
+}
+
+/* 
 .PhoneInput {
     width: 5rem;
-    /* max-width: 14rem; */
     display: flex;
     align-items: center;
 }
@@ -357,9 +321,6 @@ input:not(.react-phone-number-input__input) {
     border: 1px solid #cfcfcf;
     background-color: #fcfcfc;
     outline: none;
-    /* -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none; */
 }
 
 .PhoneInputInput {
@@ -389,7 +350,7 @@ form {
     --PhoneInputCountryFlag-borderColor: rgba(0, 0, 0, 0.5);
     --PhoneInputCountryFlag-borderColor--focus: var(--PhoneInput-color--focus);
     --PhoneInputCountryFlag-backgroundColor--loading: rgba(0, 0, 0, 0.1);
-}
+} */
 
 /********** FOOTER styling **********/
 
@@ -401,7 +362,6 @@ footer {
     height: 10vh;
     min-height: 3rem;
     background-color: #f5f9f9;
-    /* border-top: 1px solid rgba(0, 0, 0, 0.2); */
     box-shadow: 0 0 2px 1px rgb(0 0 0 / 25%);
 }
 
@@ -421,20 +381,12 @@ footer a:hover {
     font-weight: bold;
 }
 
-.accordion-button {
-    flex-direction: column;
-    align-items: flex-start;
+footer .print-add {
+    padding: 0;
+    height: 2rem;
+    margin: 0;
+    font-size: 5rem;
 }
-
-.about section {
-    width: 100%;
-    margin: 2% 0;
-}
-
-.lessImportantText {
-    font-weight: 300;
-}
-
 
 /********** MEDIA QUERIES **********/
 
@@ -445,6 +397,22 @@ footer a:hover {
 
     .print-add {
         display: block;
+    }
+
+    footer {
+        height: 2rem;
+    }
+
+    footer p {
+        display: inline;
+    }
+
+    .portfolio {
+        color: black;
+    }
+
+    .site-welcome {
+        margin: 10px 0;
     }
 }
 
@@ -469,17 +437,10 @@ footer a:hover {
         justify-content: space-around;
     }
 
-    /* .card-container .contact {
-        justify-content: center;
-    } */
-
     .card a {
         font-size: 1.1rem;
     }
 
-    /* .card-portfolio-popup {
-        width: 50%;
-    } */
 
     .section-cv {
         height: 600px;
